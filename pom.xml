@@ -6,7 +6,16 @@
 
     <groupId>com.andyadc.im</groupId>
     <artifactId>tiny-im-server</artifactId>
+    <packaging>pom</packaging>
     <version>1.0.0</version>
+
+    <modules>
+        <module>tiny-im-server-domain</module>
+        <module>tiny-im-server-application</module>
+        <module>tiny-im-server-infrastructure</module>
+        <module>tiny-im-server-interfaces</module>
+        <module>tiny-im-server-starter</module>
+    </modules>
 
     <properties>
         <java.version>1.8</java.version>
